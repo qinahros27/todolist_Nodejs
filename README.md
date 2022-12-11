@@ -358,9 +358,9 @@ Firstly , test the authentication. If I did not sign in , it should response 'Ba
 ![signin1](https://user-images.githubusercontent.com/101724167/206883884-0c6da931-a9b5-457b-8f9a-e9349bd00afc.png)
 
 
-Then I have the token => I will copy-paste the token to the authentication
+Then I have the token => I will copy-paste the token to the authorization header:
 
-![image](https://user-images.githubusercontent.com/101724167/206883667-147c3c59-b02a-4ca8-bd95-e819565955db.png)
+![checkdone1](https://user-images.githubusercontent.com/101724167/206884076-d272271b-91fe-44d2-a581-1f0cdcd95687.png)
 
 Now I can have data returned.
 
