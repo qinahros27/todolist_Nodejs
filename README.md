@@ -1,4 +1,38 @@
-# Todolist_Nodejs
+# Introduction
+This project uses JavaScript, NodeJS, and PostgreSQL to create the backend for a personal to-do application that requires users to be logged in before they can call the APIs. One user can sign in, sign up, change their password; create, update, delete, and read the user's to-do lists.
+
+## Table of content
+- Technologies
+- Project structure
+- Getting started
+
+## Technologies 
+- JavaScript
+- NodeJS
+- PostgreSQL
+
+## Project structure
+```
+.
+└───Todolist_Nodejs
+    └───db
+        └───dbconfig.js
+        └───todos.js
+        └───users.js
+    └───node_modules
+    └───services
+        └───authentication.js
+    └───README.md
+    └───index.js
+    └───package-lock.json
+    └───package.json
+```
+## Getting started
+Clone the respository from github: ```git clone```
+
+Then run the app with this command: ```npm run dev```
+
+<!---
 ## CREATE DATABASE IN POSTGRESQL
 ### Create database:
 
@@ -398,3 +432,4 @@ todo changed in database:
 This item also deleted in postgresql:
 
 ![deletetododatabase](https://user-images.githubusercontent.com/101724167/206883777-8ba03045-7c64-4089-8c38-60a9c3591a61.png)
+--->
